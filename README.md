@@ -4,6 +4,8 @@ and remains well-balanced for long text setting because of its regular proportio
 All vertical strokes are rounded towards the baseline,
 which is why technically there is no sense for overshoots in rounded letters like O. Marmelad performs well on screen because of its soft rounded features and generous x-height.
 
+![Marmelad Font](http://cyreal.org/wp-content/uploads/2012/07/marmelad-promo.jpg)
+
 The font supports Latin-1, Cyrillic and Turkish(Latin-5) encoding.
 Marmelad is designed by Manvel Shmavonyan.
 
