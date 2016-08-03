@@ -1,6 +1,6 @@
 {
 .appVersion = "895";
-copyright = "Copyright (c) Cyreal, 2011-2016. All rights reserved.";
+copyright = "Copyright (c) 2011-2016, Cyreal (contact@cyreal.org)";
 customParameters = (
 {
 name = openTypeNameLicenseURL;
@@ -19563,7 +19563,7 @@ instances = (
 customParameters = (
 {
 name = Autohint;
-value = "New Value";
+value = 0;
 },
 {
 name = fsType;
