@@ -49,6 +49,40 @@ date = "2011-11-21 19:53:38 +0000";
 designer = "Manvel Shmavonyan";
 designerURL = "http://cyreal.org";
 familyName = Marmelad;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;\012feature frac;\012feature ordn;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub f i by fi;\012sub f l by fl;\012";
+name = liga;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
@@ -19562,13 +19596,45 @@ instances = (
 {
 customParameters = (
 {
-name = Autohint;
+name = typoAscender;
+value = 971;
+},
+{
+name = typoDescender;
+value = -275;
+},
+{
+name = typoLineGap;
 value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 971;
+},
+{
+name = winDescent;
+value = 275;
+},
+{
+name = hheaAscender;
+value = 971;
+},
+{
+name = hheaDescender;
+value = -275;
 },
 {
 name = fsType;
 value = (
 );
+},
+{
+name = Autohint;
+value = 0;
 }
 );
 instanceInterpolations = {
