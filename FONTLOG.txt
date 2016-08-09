@@ -32,7 +32,7 @@ Source files:
 
 ChangeLog
 
-August 4 2016  v 1.002 (Alexei Vanyashin)
+August 4 2016  v 1.100 (Alexei Vanyashin)
 — Extended charset to GF Latin Plus, GF Cyrillic Plus
 — Added core kerning pairs
 
