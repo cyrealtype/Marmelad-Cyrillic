@@ -1,5 +1,5 @@
 {
-.appVersion = "895";
+.appVersion = "930";
 classes = (
 {
 automatic = 1;
@@ -7,21 +7,8 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2011-2016, Cyreal (contact@cyreal.org)";
+copyright = "Copyright 2016 The Marmelad Project Authors (manveltype@gmail.com), with Reserved Font Name \"Marmelad\".";
 customParameters = (
-{
-name = openTypeNameLicenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = vendorID;
-value = CYRE;
-},
 {
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
@@ -31,25 +18,13 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
-name = unicodeRanges;
+name = fsType;
 value = (
-"0",
-"1",
-"2",
-"7",
-"9",
-"29",
-"116"
 );
 },
 {
-name = codePageRanges;
-value = (
-1252,
-1250,
-1251,
-1258
-);
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2016-08-09 10:59:47 +0000";
@@ -116,6 +91,48 @@ alignmentZones = (
 );
 ascender = 760;
 capHeight = 709;
+customParameters = (
+{
+name = typoAscender;
+value = 971;
+},
+{
+name = typoDescender;
+value = -220;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 971;
+},
+{
+name = winDescent;
+value = 220;
+},
+{
+name = hheaAscender;
+value = 971;
+},
+{
+name = hheaDescender;
+value = -220;
+},
+{
+name = underlinePosition;
+value = -100;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -220;
 horizontalStems = (
 55
@@ -351,7 +368,7 @@ unicode = 1EB2;
 },
 {
 glyphname = Abrevetilde;
-lastChange = "2016-08-09 11:09:10 +0000";
+lastChange = "2016-10-06 20:11:43 +0000";
 layers = (
 {
 components = (
@@ -360,7 +377,7 @@ name = A;
 },
 {
 name = brevecomb_tildecomb;
-transform = "{1, 0, 0, 1, 111, 207}";
+transform = "{1, 0, 0, 1, 110, 207}";
 }
 );
 layerId = UUID0;
@@ -6749,7 +6766,7 @@ unicode = 1EB3;
 },
 {
 glyphname = abrevetilde;
-lastChange = "2016-08-09 11:11:45 +0000";
+lastChange = "2016-10-12 14:28:22 +0000";
 layers = (
 {
 components = (
@@ -6758,7 +6775,7 @@ name = a;
 },
 {
 name = brevecomb_tildecomb;
-transform = "{1, 0, 0, 1, 75, 0}";
+transform = "{1, 0, 0, 1, 74, 0}";
 }
 );
 layerId = UUID0;
@@ -8379,6 +8396,25 @@ width = 525;
 leftKerningGroup = o;
 rightKerningGroup = e;
 unicode = 1EBD;
+},
+{
+glyphname = schwa;
+lastChange = "2016-08-06 20:57:18 +0000";
+layers = (
+{
+components = (
+{
+name = e;
+transform = "{-1, 0, 0, -1, 525, 502}";
+}
+);
+layerId = UUID0;
+width = 525;
+}
+);
+leftKerningGroup = o;
+rightKerningGroup = o;
+unicode = 0259;
 },
 {
 glyphname = f;
@@ -11677,25 +11713,6 @@ width = 570;
 leftKerningGroup = h;
 rightKerningGroup = germandbls;
 unicode = 00DF;
-},
-{
-glyphname = schwa;
-lastChange = "2016-08-06 20:57:18 +0000";
-layers = (
-{
-components = (
-{
-name = e;
-transform = "{-1, 0, 0, -1, 525, 502}";
-}
-);
-layerId = UUID0;
-width = 525;
-}
-);
-leftKerningGroup = o;
-rightKerningGroup = o;
-unicode = 0259;
 },
 {
 glyphname = t;
@@ -18320,20 +18337,6 @@ unicode = 04A6;
 },
 {
 export = 0;
-glyphname = "Haabkhasian-cy";
-lastChange = "2016-08-08 23:45:09 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-}
-);
-leftKerningGroup = O;
-rightKerningGroup = O;
-unicode = 04A8;
-},
-{
-export = 0;
 glyphname = "Tedescender-cy";
 lastChange = "2016-08-08 23:54:59 +0000";
 layers = (
@@ -18377,20 +18380,6 @@ width = 589;
 leftKerningGroup = X;
 rightKerningGroup = X;
 unicode = 04B2;
-},
-{
-export = 0;
-glyphname = "Cheabkhasian-cy";
-lastChange = "2016-08-08 23:45:09 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-}
-);
-leftKerningGroup = "Cheabkhasian-cy";
-rightKerningGroup = C;
-unicode = 04BC;
 },
 {
 export = 0;
@@ -24622,20 +24611,6 @@ unicode = 04A7;
 },
 {
 export = 0;
-glyphname = "haabkhasian-cy";
-lastChange = "2016-08-08 23:45:09 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-}
-);
-leftKerningGroup = o;
-rightKerningGroup = o;
-unicode = 04A9;
-},
-{
-export = 0;
 glyphname = "tedescender-cy";
 lastChange = "2016-08-08 23:45:09 +0000";
 layers = (
@@ -28939,6 +28914,17 @@ width = 300;
 leftKerningGroup = space;
 rightKerningGroup = space;
 unicode = 00A0;
+},
+{
+glyphname = CR;
+lastChange = "2016-10-06 20:16:42 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 300;
+}
+);
+unicode = 000D;
 },
 {
 glyphname = .notdef;
@@ -37438,26 +37424,6 @@ leftKerningGroup = "_part.curl-cy.case";
 rightKerningGroup = "_part.curl-cy.case";
 },
 {
-glyphname = Acute;
-lastChange = "2016-08-08 23:45:31 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-}
-);
-},
-{
-glyphname = "_part.descender-cy";
-lastChange = "2016-08-08 23:47:51 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-}
-);
-},
-{
 glyphname = "_part.topbar-cy";
 lastChange = "2016-08-08 23:51:46 +0000";
 layers = (
@@ -37487,53 +37453,21 @@ nodes = (
 width = 600;
 }
 );
+},
+{
+glyphname = NULL;
+lastChange = "2016-10-06 20:16:42 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 0;
+}
+);
+unicode = 0000;
 }
 );
 instances = (
 {
-customParameters = (
-{
-name = typoAscender;
-value = 1106;
-},
-{
-name = typoDescender;
-value = -252;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1106;
-},
-{
-name = winDescent;
-value = 252;
-},
-{
-name = hheaAscender;
-value = 1106;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = Autohint;
-value = 0;
-}
-);
 instanceInterpolations = {
 UUID0 = 1;
 };

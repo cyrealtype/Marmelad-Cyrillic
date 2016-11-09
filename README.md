@@ -14,4 +14,4 @@ languages that use the Latin and Cyrillic scripts and its variants, and
 could be expanded to support other scripts. More specifically, this release supports the following Unicode
 ranges: Latin-1, Latin-5, Cyrillic
 
-![Marmelad Font](src/sample.jpg)
+![Marmelad Font](sources/sample.jpg)
