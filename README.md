@@ -1,10 +1,8 @@
 Marmelad is designed specifically for medium to large-size headlines
-and remains well-balanced for long text setting because of its regular proportions and medium contrast. Ascenders and descenders are elegant and details refined. The name and overall feel refers to marmalade sweets - soft and ductile.
+and remains well-balanced for long text setting because of its regular proportions and medium contrast. Ascenders and descenders are elegant and details refined. The name and overall feel refers to marmalade sweets, soft and ductile.
 
 All vertical strokes are rounded towards the baseline,
 which is why technically there is no sense for overshoots in rounded letters like O. Marmelad performs well on screen because of its soft rounded features and generous x-height.
-
-![Marmelad Font](http://cyreal.org/wp-content/uploads/2012/07/marmelad-promo.jpg)
 
 The font supports Latin-1, Cyrillic and Turkish(Latin-5) encoding.
 Marmelad is designed by Manvel Shmavonyan.
@@ -15,3 +13,14 @@ could be expanded to support other scripts. More specifically, this release supp
 ranges: Latin-1, Latin-5, Cyrillic
 
 ![Marmelad Font](sources/sample.jpg)
+
+#### Copyright
+
+Copyright 2016 The Marmelad Project Authors (manveltype@gmail.com).
+
+#### License
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
