@@ -1,9 +1,6 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
-DisplayStrings = (
-"ҕ"
-);
 classes = (
 {
 automatic = 1;
@@ -17582,6 +17579,29 @@ width = 547;
 unicode = 1200;
 },
 {
+color = 9;
+glyphname = "Hadescender-cy";
+kernLeft = X;
+kernRight = X;
+lastChange = "2022-11-04 08:44:19 +0000";
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "Ha-cy";
+},
+{
+pos = (519,0);
+ref = "descender-cy.case";
+}
+);
+width = 589;
+}
+);
+unicode = 1202;
+},
+{
 glyphname = "Chedescender-cy";
 kernLeft = "Che-cy";
 kernRight = H;
@@ -18751,30 +18771,6 @@ width = 650;
 }
 );
 unicode = 1196;
-},
-{
-color = 11;
-export = 0;
-glyphname = "Hadescender-cy";
-kernLeft = X;
-kernRight = X;
-lastChange = "2016-11-14 17:34:19 +0000";
-layers = (
-{
-layerId = UUID0;
-shapes = (
-{
-ref = "Ha-cy";
-},
-{
-pos = (519,0);
-ref = "descender-cy.case";
-}
-);
-width = 589;
-}
-);
-unicode = 1202;
 },
 {
 color = 11;
@@ -23077,6 +23073,29 @@ width = 432;
 unicode = 1201;
 },
 {
+color = 9;
+glyphname = "hadescender-cy";
+kernLeft = x;
+kernRight = x;
+lastChange = "2022-11-04 08:44:19 +0000";
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "ha-cy";
+},
+{
+pos = (411,0);
+ref = "descender-cy";
+}
+);
+width = 483;
+}
+);
+unicode = 1203;
+},
+{
 glyphname = "chedescender-cy";
 kernLeft = "che-cy";
 kernRight = u;
@@ -25224,30 +25243,6 @@ width = 496;
 }
 );
 unicode = 1197;
-},
-{
-color = 11;
-export = 0;
-glyphname = "hadescender-cy";
-kernLeft = x;
-kernRight = x;
-lastChange = "2016-11-14 17:33:36 +0000";
-layers = (
-{
-layerId = UUID0;
-shapes = (
-{
-ref = "ha-cy";
-},
-{
-pos = (411,0);
-ref = "descender-cy";
-}
-);
-width = 483;
-}
-);
-unicode = 1203;
 },
 {
 color = 11;
