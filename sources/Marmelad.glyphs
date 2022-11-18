@@ -1,5 +1,5 @@
 {
-.appVersion = "3133";
+.appVersion = "3145";
 .formatVersion = 3;
 classes = (
 {
@@ -19,7 +19,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2016-08-09 10:59:47 +0000";
+date = "2022-11-18 11:50:34 +0000";
 familyName = Marmelad;
 featurePrefixes = (
 {
@@ -4822,13 +4822,62 @@ unicode = 80;
 glyphname = Thorn;
 kernLeft = H;
 kernRight = P;
-lastChange = "2016-08-06 20:57:18 +0000";
+lastChange = "2022-11-18 11:49:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (309,0);
+},
+{
+name = top;
+pos = (309,709);
+}
+);
 layerId = UUID0;
 shapes = (
 {
-ref = P;
+closed = 1;
+nodes = (
+(312,215,ls),
+(496,215,o),
+(582,308,o),
+(582,422,cs),
+(582,604,o),
+(389,609,o),
+(311,609,cs),
+(208,609,l),
+(208,644,ls),
+(208,692,o),
+(187,709,o),
+(146,709,cs),
+(115,709,o),
+(100,694,o),
+(100,659,cs),
+(100,50,ls),
+(100,15,o),
+(115,0,o),
+(146,0,cs),
+(187,0,o),
+(208,17,o),
+(208,65,cs),
+(208,215,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(208,556,l),
+(311,556,ls),
+(430,556,o),
+(469,503,o),
+(469,422,cs),
+(469,313,o),
+(407,268,o),
+(311,268,cs),
+(208,268,l)
+);
 }
 );
 width = 617;
@@ -38609,5 +38658,5 @@ tH = "49";
 };
 };
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 110;
 }
